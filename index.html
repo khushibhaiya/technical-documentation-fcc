@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <link href= "index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">HTML Tutorial</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#HTML_Introduction">HTML Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#HTML_headings">HTML Headings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#HTML_Attributes">HTML Attributes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#HTML_Styles">HTML Styles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#HTML_Basic_Examples">HTML Basic Examples</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+      <main id="main-doc" style="padding-top: 60px;">
+        <section class="main-section" id="HTML_Introduction">
+            <header>HTML Introduction</header>
+            <p class="para">HTML is the standard markup language for creating Web pages.</p>
+            <p class="para">Some common tags that are used in HTML are as follows:</p>
+            <li class="list">The DOCTYPE html tag declaration defines that this document is an HTML5 document</li>
+            <li class="list">The html element is the root element of an HTML page</li>
+            <li class="list">The title tag is an element which specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+            <li class="list">The html element is the root element of an HTML page</li>
+            <li class="list">The html element is the root element of an HTML page</li>
+        </section>
+        <section class="main-section" id="HTML_headings">
+            <header>HTML Headings</header>
+            <p class="para">HTML headings are defined with the h1 to h6 tags.</p>
+            <p class="para">h1 defines the most important heading. h6 defines the least important heading.</p>
+            <p class="para">Search engines use the headings to index the structure and content of your web pages.</p>
+            <p class="para">Users often skim a page by its headings. It is important to use headings to show the document structure.</p>
+            <p class="para">Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS font-size property:</p>
+        </section>
+        <section class="main-section" id="HTML_Attributes">
+            <header>HTML Attributes</header>
+            <p class="para">HTML attributes provide additional information about HTML elements.</p>
+            <p class="para">The a tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:</p>
+            <p class="para">The img tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:</p>
+            <p class="para">There are two ways to specify the URL in the src attribute:</p>
+            <li class="list">Absolute URL - Links to an external image that is hosted on another website.</li>
+            <p class="list">Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.</p>
+            <li class="list">Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. If the URL begins with a slash, it will be relative to the domain.</li>
+        </section>
+        <section class="main-section" id="HTML_Styles">
+            <header>HTML Styles</header>
+            <p class="para">The HTML style attribute is used to add styles to an element, such as color, font, size, and more.</p>
+            <p class="para">Setting the style of an HTML element, can be done with the style attribute. 
+            The HTML style attribute has the following syntax:</p>
+            <p class="para">To summerize, there are many style, mainly:</p>
+            <li class="list">Use the style attribute for styling HTML elements</li>
+            <li class="list">Use background-color for background color</li>    
+            <li class="list">Use color for text colors</li>
+            <li class="list">Use font-family for text fonts</li>
+            <li class="list">Use font-size for text sizes</li>
+            <li class="list">Use text-align for text alignment</li>
+        </section>
+        <section class="main-section" id="HTML_Basic_Examples">
+            <header>HTML Basic Examples</header>
+            <p class="para">All HTML documents must start with a document type declaration: "DOCTYPE html".The HTML document itself begins with starting html tag and ends with ending html tag.</p>
+            <P class="para">The visible part of the HTML document is between starting body tag and ending body tag.</P>
+            <p class="para">The !DOCTYPE declaration represents the document type, and helps browsers to display web pages correctly.</p>
+            <p class="para">It must only appear once, at the top of the page (before any HTML tags).</p>
+            <p class="para">The !DOCTYPE declaration is not case sensitive.The !DOCTYPE declaration for HTML5 is:</p>
+        </section>
+      </main>    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+</body>
+</html>
